@@ -19,11 +19,11 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2023-10'
+date: '2023-10-28T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-03-23'
+publishDate: '2024-03-22T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -45,12 +45,11 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+- name: Website
+  url: https://sites.google.com/view/denoising-heat-inspired?usp=sharing
 
-url_website: 'https://sites.google.com/view/denoising-heat-inspired?usp=sharing'
-url_pdf: 'Denoising Heat-inspired Diffusion.pdf'
+url_pdf: 'conference-paper.pdf'
 url_code: 'https://github.com/pranaboy72/denoisingheat'
 url_poster: 'https://neurips.cc/virtual/2023/74866'
 
@@ -75,13 +74,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-<!-- {{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
