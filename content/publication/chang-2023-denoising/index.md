@@ -9,7 +9,10 @@ authors:
 - Joohwan Seo
 - Nikhil Prakash
 - Jongeun Choi
-- Roberto Horowitz
+- Roberto 
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
 
 date: '2023-01-01'
 publishDate: '2024-03-23T18:04:28.794563Z'
