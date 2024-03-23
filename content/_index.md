@@ -42,6 +42,26 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+- block: news
+    content:
+      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      title: 'News&shy;ments'
+      subtitle:
+      # Date format: https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `item` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - organization: Neurips 2023 Workshop on Diffusion Models
+          date_end: ''
+          date_start: '2023-10-28'
+          title: Our paper "Denoising Heat-inspired Diffusion with Insulators for Collision Free Motion Planning" has been accepted to NeurIPS 2023 Workshop on Diffusion Models.
+          url: 'https://neurips.cc/virtual/2023/74866 '
+    design:
+      columns: '2'
   - block: collection
     content:
       title: Publications
