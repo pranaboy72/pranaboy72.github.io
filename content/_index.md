@@ -65,7 +65,6 @@ sections:
   - block: collection
     content:
       title: Publications
-      text: |-
       filters:
         folders:
           - publication
