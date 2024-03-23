@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: M.S. student @ Yonsei University
+role: M.S. student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -99,4 +99,8 @@ social:
 highlight_name: true
 ---
 
-''
+M.S. student @ Yonsei University.
+
+I am currently a M.S. student at [Machine Learning and Control Systems Lab (MLCS)](https://mlcs.yonsei.ac.kr/) at Yonsei University, advised by [Prof. Jongeun Choi](https://mlcs.yonsei.ac.kr/Professor.html). My research interests lie in Robotics and Machine Learning, with a particular focus on leveraging diffusion models and symmetry in robot learning. 
+
+I received my Bachelor's degree in Mechanical Engineering from Yonsei University.

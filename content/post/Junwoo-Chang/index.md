@@ -1,6 +1,0 @@
----
-title: ''
-date: ''
----
-
-Hello world
