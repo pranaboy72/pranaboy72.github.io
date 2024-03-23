@@ -19,20 +19,20 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2023-10-28T00:00:00Z'
+date: 2023-10-28
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-03-22T00:00:00Z'
+publishDate: ''
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Neurips 2023 Workshop on Diffusion Models*
-publication_short: ""
+publication: "Neurips 2023 Workshop on Diffusion Models"
+publication_short: In *NeurIPS Workshop on Diffusion Models*
 
 abstract: Diffusion models have risen as a powerful tool in robotics due to their flexibility and multi-modality. While some of these methods effectively address complex problems, they often depend heavily on inference-time obstacle detection and require additional equipment. Addressing these challenges, we present a method that, during inference time, simultaneously generates only reachable goals and plans motions that avoid obstacles, all from a single visual input. Central to our approach is the novel use of a collision-avoiding diffusion kernel for training. Through evaluations against behavior-cloning and classical diffusion models, our framework has proven its robustness. It is particularly effective in multi-modal environments, navigating toward goals and avoiding unreachable ones blocked by obstacles, while ensuring collision avoidance.
 
@@ -40,6 +40,7 @@ abstract: Diffusion models have risen as a powerful tool in robotics due to thei
 summary: ''
 
 tags: []
+categories: []
 
 # Display this page in the Featured widget?
 featured: true
@@ -49,28 +50,19 @@ links:
 - name: Website
   url: https://sites.google.com/view/denoising-heat-inspired?usp=sharing
 
-url_pdf: 'conference-paper.pdf'
+url_pdf: 'https://openreview.net/pdf?id=gZsn7EEexE'
 url_code: 'https://github.com/pranaboy72/denoisingheat'
 url_poster: 'https://neurips.cc/virtual/2023/74866'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
+  placement: 1
   caption: ''
   focal_point: ''
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
 projects: []
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
 slides: ""
 ---
