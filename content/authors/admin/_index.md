@@ -25,13 +25,13 @@ organizations:
     url: https://mlcs.yonsei.ac.kr/ 
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include robotics, with a focus on leveraging diffusion models and symmetry.
+bio: My research interests include robotics, with a focus on leveraging diffusion models and geometric deep learning.
 
 # Interests to show in About widget
 interests:
   - Robotics
   - Diffusion Models
-  - Symmetry and Equivariance
+  - Geometric Deep Learning
 
 # Education to show in About widget
 education:
@@ -101,6 +101,6 @@ highlight_name: true
 
 M.S. student @ Yonsei University.
 
-I am currently a M.S. student at [Machine Learning and Control Systems Lab (MLCS)](https://mlcs.yonsei.ac.kr/) at Yonsei University, advised by [Prof. Jongeun Choi](https://mlcs.yonsei.ac.kr/Professor.html). My research interests lie in Robotics and Machine Learning, with a particular focus on leveraging diffusion models and symmetry in robot learning. 
+I am currently a M.S. student at [Machine Learning and Control Systems Lab (MLCS)](https://mlcs.yonsei.ac.kr/) at Yonsei University, advised by [Prof. Jongeun Choi](https://mlcs.yonsei.ac.kr/Professor.html). My research interests lie in Robotics and Machine Learning, with a particular focus on leveraging diffusion models and geometric deep learning in robot learning. 
 
 I received my Bachelor's degree in Mechanical Engineering from Yonsei University.
