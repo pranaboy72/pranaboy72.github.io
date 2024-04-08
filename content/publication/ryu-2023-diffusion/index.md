@@ -1,6 +1,6 @@
 ---
 title: 'Diffusion-edfs: Bi-equivariant denoising generative modeling on se (3) for
-  visual robotic manipulation (CVPR Highlight)'
+  visual robotic manipulation (Highlight)'
 authors:
 - Hyunwoo Ryu
 - Jiwoo Kim
