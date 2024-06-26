@@ -27,7 +27,7 @@ summary: ''
 tags: []
 categories: []
 
-featured: true
+featured: false
 
 links:
 - name: Website

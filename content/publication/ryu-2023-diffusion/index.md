@@ -22,7 +22,7 @@ summary: ''
 tags: []
 categories: []
 
-featured: false
+featured: true
 
 links:
 - name: Website
