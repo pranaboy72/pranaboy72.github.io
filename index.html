@@ -41,14 +41,24 @@
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>News</h2>
-                <ul style="margin-bottom:4px;padding-left:20px;line-height:1.7;">
+                <ul id="news-list" style="margin-bottom:4px;padding-left:20px;line-height:1.7;">
                   <li style="margin-bottom:4px;"><strong>Fall 2026:</strong> I will join UC Berkeley as a Ph.D. student in Mechanical Engineering.</li>
+                  <li style="margin-bottom:4px;"><strong>Apr. 2026:</strong> Our paper, <i>"Symmetry-Aware Steering of Equivariant Diffusion Policies: Benefits and Limits"</i>, was accepted to <strong>IFAC 2026</strong>.</li>
                   <li style="margin-bottom:4px;"><strong>Apr. 2026:</strong> Our paper, <i>"Multi-Robot Motion Planning from Vision and Language using Heat-Inspired Diffusion"</i>, was accepted to <strong>IEEE RA-L</strong>.</li>
                   <li style="margin-bottom:4px;"><strong>Jan. 2026:</strong> Our paper, <i>"Partially Equivariant Reinforcement Learning in Symmetry-Breaking Environments"</i>, was accepted to <strong>ICLR 2026</strong>.</li>
                   <li style="margin-bottom:4px;"><strong>Mar. 2025:</strong> Our tutorial paper on geometric deep learning, <i>"SE(3)-Equivariant Robot Learning and Control: A Tutorial Survey"</i>, was published in <strong>IJCAS</strong>.</li>
-                  <li style="margin-bottom:4px;"><strong>Apr. 2024:</strong> Our paper, <i>"Diffusion-EDFs: Bi-equivariant Denoising Generative Modeling on SE(3) for Visual Robotic Manipulation"</i>, was selected for a <strong>Highlight</strong> at <strong>CVPR 2024</strong>.</li>
-                  <li><strong>Oct. 2023:</strong> Our paper, <i>"Denoising Heat-inspired Diffusion with Insulators for Collision-Free Motion Planning"</i>, was accepted to the <strong>NeurIPS 2023 Workshop on Diffusion Models</strong>.</li>
+                  <li class="news-extra" style="margin-bottom:4px;display:none;"><strong>Apr. 2024:</strong> Our paper, <i>"Diffusion-EDFs: Bi-equivariant Denoising Generative Modeling on SE(3) for Visual Robotic Manipulation"</i>, was selected for a <strong>Highlight</strong> at <strong>CVPR 2024</strong>.</li>
+                  <li class="news-extra" style="display:none;"><strong>Oct. 2023:</strong> Our paper, <i>"Denoising Heat-inspired Diffusion with Insulators for Collision-Free Motion Planning"</i>, was accepted to the <strong>NeurIPS 2023 Workshop on Diffusion Models</strong>.</li>
                 </ul>
+                <button
+                  id="news-toggle"
+                  type="button"
+                  aria-expanded="false"
+                  style="margin-left:20px;padding:0;border:none;background:none;color:#1a73e8;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:6px;"
+                >
+                  <span id="news-toggle-icon" style="display:inline-block;">&#9660;</span>
+                  <span id="news-toggle-label">Show more</span>
+                </button>
               </td>
             </tr>
           </tbody></table>
@@ -63,6 +73,48 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+<tr>
+  <td style="padding:16px;width:20%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id="radmesh_image">
+        <img src="images/steer.png" width="100%">
+      </div>
+      <img src="images/steer.png" width="100%">
+    </div>
+
+    <script>
+      function radmesh_start() { document.getElementById('radmesh_image').style.opacity = "1"; }
+      function radmesh_stop() { document.getElementById('radmesh_image').style.opacity = "0"; }
+      radmesh_stop();
+    </script>
+  </td>
+
+  <td style="padding:16px;width:80%;vertical-align:middle">
+    <div style="font-size: 20px; font-weight: 600;">
+      Symmetry-Aware Steering of Equivariant Diffusion Policies: Benefits and Limits
+    </div>
+
+    <div style="margin-top:4px;">
+      Minwoo Park<sup>*</sup>, 
+      <strong><u style="text-underline-offset:2px;">Junwoo Chang</u></strong><sup>*</sup>, 
+      Jongeun Choi,
+      Roberto Horowitz
+    </div>
+
+    <div style="margin-top:4px; font-style: italic;">
+      <strong>IFAC 2026</strong>
+    </div>
+
+    <div style="margin-top:8px;">
+      <a href="https://arxiv.org/abs/2512.11345">paper</a>
+        |
+      <a href="https://github.com/MinwooPark00/EquiSteer">code</a>
+    </div>
+  </td>
+</tr>
+
 
 <tr>
   <td style="padding:16px;width:20%;vertical-align:middle">
@@ -87,7 +139,7 @@
 
     <div style="margin-top:4px;">
       Jebeom Chae<sup>*</sup>, 
-      <strong>Junwoo Chang</strong><sup>*</sup>, 
+      <strong><u style="text-underline-offset:2px;">Junwoo Chang</u></strong><sup>*</sup>, 
       Seungho Yeom,
       Yujin Kim,
       Jongeun Choi
@@ -126,7 +178,7 @@
       </div>
   
       <div style="margin-top:4px;">
-        <strong>Junwoo Chang</strong>, 
+        <strong><u style="text-underline-offset:2px;">Junwoo Chang</u></strong>, 
         Minwoo Park,
         Joohwan Seo,
         Roberto Horowitz,
@@ -170,7 +222,7 @@
     </div>
 
     <div style="margin-top:4px;">
-      <strong>Junwoo Chang</strong>, 
+      <strong><u style="text-underline-offset:2px;">Junwoo Chang</u></strong>, 
       Joseph Park,
       Roberto Horowitz,
       Jongmin Lee<sup>&dagger;</sup>,
@@ -189,47 +241,6 @@
     </div>
   </td>
 </tr>
-
-<tr>
-  <td style="padding:16px;width:20%;vertical-align:middle">
-    <div class="one">
-      <div class="two" id="radmesh_image">
-        <img src="images/steer.png" width="100%">
-      </div>
-      <img src="images/steer.png" width="100%">
-    </div>
-
-    <script>
-      function radmesh_start() { document.getElementById('radmesh_image').style.opacity = "1"; }
-      function radmesh_stop() { document.getElementById('radmesh_image').style.opacity = "0"; }
-      radmesh_stop();
-    </script>
-  </td>
-
-  <td style="padding:16px;width:80%;vertical-align:middle">
-    <div style="font-size: 20px; font-weight: 600;">
-      Symmetry-Aware Steering of Equivariant Diffusion Policies: Benefits and Limits
-    </div>
-
-    <div style="margin-top:4px;">
-      Minwoo Park<sup>*</sup>, 
-      <strong>Junwoo Chang</strong><sup>*</sup>, 
-      Jongeun Choi,
-      Roberto Horowitz
-    </div>
-
-    <div style="margin-top:4px; font-style: italic;">
-      Preprint (Under Review), 2025
-    </div>
-
-    <div style="margin-top:8px;">
-      <a href="https://arxiv.org/abs/2512.11345">paper</a>
-        |
-      <a href="https://github.com/MinwooPark00/EquiSteer">code</a>
-    </div>
-  </td>
-</tr>
-
 
 <tr>
 <!-- <tr bgcolor="#ffffd0" onmouseover="radmesh_start()" onmouseout="radmesh_stop()"> -->
@@ -256,7 +267,7 @@
     <div style="margin-top:4px;">
       Joohwan Seo,
       Soochul Yoo,
-      <strong>Junwoo Chang</strong>, 
+      <strong><u style="text-underline-offset:2px;">Junwoo Chang</u></strong>, 
       Hyunseok An,
       Hyunwoo Ryu,
       Soomi Lee,
@@ -308,7 +319,7 @@
         Hyunwoo Ryu,
         Jiwoo Kim,
         Hyunseok An,
-        <strong>Junwoo Chang</strong>, 
+        <strong><u style="text-underline-offset:2px;">Junwoo Chang</u></strong>, 
         Joohwan Seo,
         Taehan Kim,
         Yubin Kim,
@@ -360,7 +371,7 @@
     </div>
     
     <div style="margin-top:4px;">
-      <strong>Junwoo Chang</strong><sup>*</sup>, 
+      <strong><u style="text-underline-offset:2px;">Junwoo Chang</u></strong><sup>*</sup>, 
       Hyunwoo Ryu<sup>*</sup>,
       Jiwoo Kim,
       Joohwan Seo,
@@ -398,6 +409,30 @@
     </p>
   </td>
 </tr>
+
+<script>
+  (function () {
+    var toggleButton = document.getElementById('news-toggle');
+    var toggleIcon = document.getElementById('news-toggle-icon');
+    var toggleLabel = document.getElementById('news-toggle-label');
+    var extraNewsItems = document.querySelectorAll('.news-extra');
+    var expanded = false;
+
+    if (!toggleButton || !toggleIcon || !toggleLabel || extraNewsItems.length === 0) {
+      return;
+    }
+
+    toggleButton.addEventListener('click', function () {
+      expanded = !expanded;
+      extraNewsItems.forEach(function (item) {
+        item.style.display = expanded ? 'list-item' : 'none';
+      });
+      toggleButton.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+      toggleIcon.innerHTML = expanded ? '&#9650;' : '&#9660;';
+      toggleLabel.textContent = expanded ? 'Show less' : 'Show more';
+    });
+  })();
+</script>
 
   </body>
 </html>
